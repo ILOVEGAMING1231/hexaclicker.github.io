@@ -122,7 +122,7 @@ angular.module('HexaClicker', [])
         $scope.selectedPurchaseList = 1;
 
         $scope.click = function() {
-            $scope.Progress.currentLevel.dealDamage(5 + $scope.Grid.getGrid().getDPS() * 0.1);
+            $scope.Progress.currentLevel.dealDamage(999999999 + $scope.Grid.getGrid().getDPS() * 0.1);
         }
 
         $scope.toggleProgress = function() {
